@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Marketplace</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <h2>🌾 Village Marketplace</h2>
+
+        <ul>
+
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#formSection">Add Village</a></li>
+
+            <li><a href="#villageList">Villages</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <h1>Welcome to Village Marketplace</h1>
+
+        <p>
+            Connect villages with buyers and promote local products.
+        </p>
+
+    </section>
+
+
+
+    <!-- Form -->
+
+    <section id="formSection" class="form-container">
+
+        <h2>Add New Village</h2>
+
+        <form id="villageForm">
+
+            <input
+                type="text"
+                id="villageName"
+                placeholder="Village Name"
+                required
+            >
+
+            <input
+                type="text"
+                id="district"
+                placeholder="District"
+                required
+            >
+
+            <input
+                type="text"
+                id="state"
+                placeholder="State"
+                required
+            >
+
+            <input
+                type="text"
+                id="marketName"
+                placeholder="Market Name"
+                required
+            >
+
+            <input
+                type="text"
+                id="products"
+                placeholder="Products (Rice,Wheat,Milk)"
+            >
+
+            <input
+                type="text"
+                id="contactNumber"
+                placeholder="Contact Number"
+            >
+
+            <textarea
+                id="description"
+                placeholder="Description"
+            ></textarea>
+
+            <button type="submit">
+
+                Add Village
+
+            </button>
+
+        </form>
+
+    </section>
+
+
+
+    <!-- Display Villages -->
+
+    <section id="villageList">
+
+        <h2>Available Villages</h2>
+
+        <div id="villages"></div>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>
+
+            © 2026 Village Marketplace
+
+        </p>
+
+    </footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
